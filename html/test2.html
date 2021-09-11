@@ -7,9 +7,82 @@
         </title>
     </head>
     <body>
-        <!--基本标签-->
+        <!--内层属性会覆盖外层属性-->
         <h2>第一篇文章</h2>
         <br/>
         <a href="test1.html">返回主页</a>
+        <div style="color: red; font-size: 40px; border: deeppink 10px dashed;">
+            <h1 style="color: blue;">CSS教学</h1>
+        <p style="background-color: green;">这是一段文章</p>
+        <p style="border: lime 1px solid;">爱就一个字我只说一次</p>
+        <p style="border: lime 1px dashed;">爱就一个字我只说一次</p>
+        <p style="border: lime 5px solid; width: 200px; height: 200px;">爱就一个字我只说一次</p>
+        <!--不写最大宽度的话就会随着浏览器大小自动调整-->
+        <p style="border: rgb(31, 161, 212) 5px solid; max-width: 800px;">爱就一个字我只说一次</p>
+        </div>
+        <br/>
+        <br/>
+        <!--padding控制内部空间，margin控制外部空间-->  
+        <div style="padding: 20px; margin: 20px; color: red; font-size: 40px; border: deeppink 10px dashed;">
+        <p>哈哈哈哈</p>
+        </div>
+        <div style="padding-left: 20px; margin: 20px; color: red; font-size: 40px; border: deeppink 10px dashed;">
+        <p>哈哈哈哈</p>
+        </div>
+        <div style="padding: 20px 30px 40px 50px; margin: 20px; color: red; font-size: 40px; border: deeppink 10px dashed;">
+        <p>哈哈哈哈</p>
+        </div>
+        <!--float & display-->
+        <img src="007.jpg" width="200px" style="float: left;"/>
+        <p>我想把我的文字写道007这张图片的右边</p>
+        <br/>
+        <ul style="float: right; background-color: firebrick; margin: 0px; padding: 15px;">
+            <li>主页</li>
+            <li>关于</li>
+            <li>游戏</li>
+            <li>动漫</li> 
+        </ul>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <!--p标签预设的显示是block，span的标签是inline-->
+        <p>你哈</p>
+        <p>好好</p>
+        <span>span1</span>
+        <span>span2</span>
+        <hr/>
+        <p style="display: inline;">你哈</p>
+        <p style="display: inline;">好好</p>
+        <span style="display: block;">span1</span>
+        <span style="display: block;">span2</span>
+        <hr/>
+        <h1>position</h1>
+        <!--position-->
+        <div style="width: 20px;height: 20px; background-color: rgb(233, 17, 17); position: fixed;">
+            <p>hahahah</p>
+        
+        </div>
+        
+
+
+
+
+
+
     </body>
 </html>
