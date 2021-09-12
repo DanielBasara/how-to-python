@@ -25,6 +25,12 @@ document.write(parseInt(5.33));
 
 //函数
 function hello(name){
-    document.write("你好"+ name)
+    document.write("你好"+ name);
 }
-hello("老白")
+hello("老白");
+document.write("<hr/>");
+//获取input中的值
+function value_input(){
+    var value1 = document.getElementById('value').value;
+    alert("您的邮箱是"+value1);
+}
