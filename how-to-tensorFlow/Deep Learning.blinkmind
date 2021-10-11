@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "54047af1-14b4-4b24-b08e-4de0127272c2",
   "editorRootTopicKey": "54047af1-14b4-4b24-b08e-4de0127272c2",
-  "focusKey": "16e5b0f9-3bec-4f20-9580-1b5b6c1ccb80",
+  "focusKey": "d2be454f-876a-4e98-b3d1-ae929c864e6c",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {}
@@ -186,6 +186,19 @@
       ]
     },
     {
+      "key": "d2be454f-876a-4e98-b3d1-ae929c864e6c",
+      "parentKey": "54047af1-14b4-4b24-b08e-4de0127272c2",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "test"
+        }
+      ]
+    },
+    {
       "key": "36054c2d-f667-4320-90ca-011ce84d10fa",
       "parentKey": "0caa85c0-8f98-483c-9158-b1da15767f1a",
       "subKeys": [
@@ -334,7 +347,8 @@
       "key": "54047af1-14b4-4b24-b08e-4de0127272c2",
       "parentKey": null,
       "subKeys": [
-        "64b9a08c-66d8-42d9-ad41-8666f572f499"
+        "64b9a08c-66d8-42d9-ad41-8666f572f499",
+        "d2be454f-876a-4e98-b3d1-ae929c864e6c"
       ],
       "collapse": false,
       "style": null,
