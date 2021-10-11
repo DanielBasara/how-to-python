@@ -40,7 +40,7 @@ model.compile(optimizer='Adam',
               metrics=['accuracy'])
 
 # %%
-model.summary()
+# model.summary()
 history = model.fit(x_train,
                     y_train,
                     epochs=6,
