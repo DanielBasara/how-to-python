@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "54047af1-14b4-4b24-b08e-4de0127272c2",
   "editorRootTopicKey": "54047af1-14b4-4b24-b08e-4de0127272c2",
-  "focusKey": "afa5534e-4949-4d29-8249-799fc9071f5e",
+  "focusKey": "f72ec105-119c-4fd3-8b92-83e9d5928a7d",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {}
@@ -91,6 +91,19 @@
       ]
     },
     {
+      "key": "5a5a0b7c-9943-4104-b80d-2c066940ea56",
+      "parentKey": "36a173fe-d1ec-4820-989f-21821f43c233",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "通过对代码（编码器的输出）施加各种限制，我们可以让自编码器学到比较有\r\n趣的数据潜在表示"
+        }
+      ]
+    },
+    {
       "key": "465f428e-c308-45c3-b300-2637cb96d925",
       "parentKey": "c43606b0-689c-4d1e-8165-811946fa2eb3",
       "subKeys": [],
@@ -142,6 +155,23 @@
         {
           "type": "CONTENT",
           "data": "回归0~1"
+        }
+      ]
+    },
+    {
+      "key": "25ca50cd-7c33-4bf1-822a-ad5057d06d19",
+      "parentKey": "afa5534e-4949-4d29-8249-799fc9071f5e",
+      "subKeys": [
+        "b3333eeb-73eb-49ee-8bc4-ecd966ae754a",
+        "e22fef79-4743-4722-a03c-86c60cb55597",
+        "d68aa0a0-7981-4aed-a49f-324525911a35"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "学習ヒント"
         }
       ]
     },
@@ -310,6 +340,19 @@
       ]
     },
     {
+      "key": "4283d27c-cdb1-474f-bdde-c792f26ef0ed",
+      "parentKey": "c6336f15-7a6f-444e-bd9c-a4b0bc10373f",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "伪造网络"
+        }
+      ]
+    },
+    {
       "key": "f78b05c7-fb47-4a9f-a46d-44b01b7759a7",
       "parentKey": "8dc03d84-5e8b-4fff-9b32-f7846cc4792a",
       "subKeys": [
@@ -366,8 +409,10 @@
     {
       "key": "afa5534e-4949-4d29-8249-799fc9071f5e",
       "parentKey": "54047af1-14b4-4b24-b08e-4de0127272c2",
-      "subKeys": [],
-      "collapse": false,
+      "subKeys": [
+        "25ca50cd-7c33-4bf1-822a-ad5057d06d19"
+      ],
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -541,6 +586,22 @@
       ]
     },
     {
+      "key": "c6336f15-7a6f-444e-bd9c-a4b0bc10373f",
+      "parentKey": "e6a7ae2c-f9e0-46d6-a6f4-894f2fb337bd",
+      "subKeys": [
+        "4283d27c-cdb1-474f-bdde-c792f26ef0ed",
+        "f72ec105-119c-4fd3-8b92-83e9d5928a7d"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "GAN"
+        }
+      ]
+    },
+    {
       "key": "17aa5bd6-52e8-47da-943a-7c6aeb16ab37",
       "parentKey": "8dc03d84-5e8b-4fff-9b32-f7846cc4792a",
       "subKeys": [
@@ -658,6 +719,22 @@
         {
           "type": "CONTENT",
           "data": "1.收集数据"
+        }
+      ]
+    },
+    {
+      "key": "e6a7ae2c-f9e0-46d6-a6f4-894f2fb337bd",
+      "parentKey": "54047af1-14b4-4b24-b08e-4de0127272c2",
+      "subKeys": [
+        "36a173fe-d1ec-4820-989f-21821f43c233",
+        "c6336f15-7a6f-444e-bd9c-a4b0bc10373f"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "图像生成"
         }
       ]
     },
@@ -858,7 +935,7 @@
         "f78b05c7-fb47-4a9f-a46d-44b01b7759a7",
         "17aa5bd6-52e8-47da-943a-7c6aeb16ab37"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -950,6 +1027,19 @@
         {
           "type": "CONTENT",
           "data": "标量回归问题"
+        }
+      ]
+    },
+    {
+      "key": "b3333eeb-73eb-49ee-8bc4-ecd966ae754a",
+      "parentKey": "25ca50cd-7c33-4bf1-822a-ad5057d06d19",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ハイパーパラメータ最適化"
         }
       ]
     },
@@ -1055,6 +1145,21 @@
       ]
     },
     {
+      "key": "36a173fe-d1ec-4820-989f-21821f43c233",
+      "parentKey": "e6a7ae2c-f9e0-46d6-a6f4-894f2fb337bd",
+      "subKeys": [
+        "5a5a0b7c-9943-4104-b80d-2c066940ea56"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "变分自编码器"
+        }
+      ]
+    },
+    {
       "key": "a03be2f9-d416-4a08-98b9-c395ece2175e",
       "parentKey": "54047af1-14b4-4b24-b08e-4de0127272c2",
       "subKeys": [
@@ -1063,7 +1168,7 @@
         "c28cdea3-9446-42e3-943b-0e0013e4617d",
         "5ff6d4e9-4915-4288-8d88-e14c86208e3e"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -1122,7 +1227,7 @@
         "27d6eb06-80a8-4215-8394-1d5bfa152688",
         "70fa4064-99b4-4355-a31a-5483cbcb66e2"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -1157,6 +1262,19 @@
         {
           "type": "CONTENT",
           "data": "layers"
+        }
+      ]
+    },
+    {
+      "key": "d68aa0a0-7981-4aed-a49f-324525911a35",
+      "parentKey": "25ca50cd-7c33-4bf1-822a-ad5057d06d19",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "多模型集成（加权平均，多样化）"
         }
       ]
     },
@@ -1238,7 +1356,8 @@
       "subKeys": [
         "15508186-324a-46bc-b45d-728bee88d266",
         "a03be2f9-d416-4a08-98b9-c395ece2175e",
-        "afa5534e-4949-4d29-8249-799fc9071f5e"
+        "afa5534e-4949-4d29-8249-799fc9071f5e",
+        "e6a7ae2c-f9e0-46d6-a6f4-894f2fb337bd"
       ],
       "collapse": false,
       "style": null,
@@ -1314,7 +1433,7 @@
         "0d3f0b4a-1fed-4adb-84f1-8ec9d982d67e",
         "6662c049-8813-413b-acc8-fc3f01663d23"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -1442,7 +1561,7 @@
         "37a344cb-46ab-4210-8b19-ade21d66ee1e",
         "1f66cabc-0a99-4140-a7fc-a52144e6229f"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -1463,6 +1582,19 @@
         {
           "type": "CONTENT",
           "data": "K折验证（K-fold validation）"
+        }
+      ]
+    },
+    {
+      "key": "f72ec105-119c-4fd3-8b92-83e9d5928a7d",
+      "parentKey": "c6336f15-7a6f-444e-bd9c-a4b0bc10373f",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "专家网络"
         }
       ]
     },
@@ -1488,7 +1620,7 @@
         "737b5cc4-275a-46ff-bda2-4b904635cc2d",
         "34bd2aaa-5ebf-4769-ab6c-ae97baf1c114"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -1507,6 +1639,19 @@
         {
           "type": "CONTENT",
           "data": "转化为张量"
+        }
+      ]
+    },
+    {
+      "key": "e22fef79-4743-4722-a03c-86c60cb55597",
+      "parentKey": "25ca50cd-7c33-4bf1-822a-ad5057d06d19",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "构建高性能的深度卷积神经网络时，你需要使用残差连接、批标准化和深度可分离卷积"
         }
       ]
     },
