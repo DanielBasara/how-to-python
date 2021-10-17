@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "54047af1-14b4-4b24-b08e-4de0127272c2",
   "editorRootTopicKey": "54047af1-14b4-4b24-b08e-4de0127272c2",
-  "focusKey": "241ddb51-72fd-4eee-a994-4e45dcbb01e3",
+  "focusKey": "f72ec105-119c-4fd3-8b92-83e9d5928a7d",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {}
@@ -18,6 +18,23 @@
         {
           "type": "CONTENT",
           "data": "强化学习"
+        }
+      ]
+    },
+    {
+      "key": "c28cdea3-9446-42e3-943b-0e0013e4617d",
+      "parentKey": "a03be2f9-d416-4a08-98b9-c395ece2175e",
+      "subKeys": [
+        "aeeddbdc-7ff7-4db3-a113-e06c7af5d1e2",
+        "cac4ecf4-f421-47af-852a-0310816ac097",
+        "208ec930-259c-4de3-aa71-2ab993db2d36"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "3.确定评估方法"
         }
       ]
     },
@@ -69,7 +86,20 @@
       "blocks": [
         {
           "type": "CONTENT",
-          "data": "loss函数应该使用分类交叉熵"
+          "data": "loss函数应该使用分类交叉熵（categorical_crossentropy）"
+        }
+      ]
+    },
+    {
+      "key": "5a5a0b7c-9943-4104-b80d-2c066940ea56",
+      "parentKey": "36a173fe-d1ec-4820-989f-21821f43c233",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "通过对代码（编码器的输出）施加各种限制，我们可以让自编码器学到比较有\r\n趣的数据潜在表示"
         }
       ]
     },
@@ -87,6 +117,19 @@
       ]
     },
     {
+      "key": "492b564d-ea65-4deb-95cc-7f9343821214",
+      "parentKey": "35f4e167-ec29-4f49-a5fa-d998b89572f9",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "L2 正则化（权重衰减）：\n添加的成本与权重系数的平方（权重的 L2 范数）成正比\n kernel_regularizer=regularizers.l2(0.001)"
+        }
+      ]
+    },
+    {
       "key": "4b9fb849-8340-482c-9cbc-d74b89493def",
       "parentKey": "37a344cb-46ab-4210-8b19-ade21d66ee1e",
       "subKeys": [],
@@ -96,6 +139,39 @@
         {
           "type": "CONTENT",
           "data": "数据集小且需要尽可能精确评估模型"
+        }
+      ]
+    },
+    {
+      "key": "fd4c6c1e-bf6f-4e43-b1e5-1ec09d6cce73",
+      "parentKey": "8a11cd72-6b87-4f2b-96e7-376bd994b42f",
+      "subKeys": [
+        "dd12c306-996d-4f32-afec-4c74540739be",
+        "cce6cfc3-189c-49ec-8162-e536d37fa5a5"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "回归0~1"
+        }
+      ]
+    },
+    {
+      "key": "25ca50cd-7c33-4bf1-822a-ad5057d06d19",
+      "parentKey": "afa5534e-4949-4d29-8249-799fc9071f5e",
+      "subKeys": [
+        "b3333eeb-73eb-49ee-8bc4-ecd966ae754a",
+        "e22fef79-4743-4722-a03c-86c60cb55597",
+        "d68aa0a0-7981-4aed-a49f-324525911a35"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "学習ヒント"
         }
       ]
     },
@@ -115,8 +191,67 @@
       ]
     },
     {
+      "key": "10d18554-f669-4404-b9f2-ef4e9d53f943",
+      "parentKey": "8749a095-c52f-424f-a851-36e0f49bed79",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "使用binary_crossentropy"
+        }
+      ]
+    },
+    {
+      "key": "a59215bb-ae3d-4da5-800e-03b127387282",
+      "parentKey": "b86eb5e7-bf1f-4f1a-a836-c63613743058",
+      "subKeys": [
+        "1a7f79ba-44b3-41b6-a787-6d7e4ed50dd8"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "输出层"
+        }
+      ]
+    },
+    {
+      "key": "8c71210e-bc29-48f8-8930-7d256937dfce",
+      "parentKey": "5ff6d4e9-4915-4288-8d88-e14c86208e3e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "缩放到0~1"
+        }
+      ]
+    },
+    {
+      "key": "5ff6d4e9-4915-4288-8d88-e14c86208e3e",
+      "parentKey": "a03be2f9-d416-4a08-98b9-c395ece2175e",
+      "subKeys": [
+        "48685bc9-e9ce-4b1f-9c4a-5d50af13437c",
+        "8c71210e-bc29-48f8-8930-7d256937dfce",
+        "78ff0024-e45d-4cc8-af30-8914f38fb857",
+        "732d780e-f9c4-49c6-923a-d4fde523546f"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "数据格式化"
+        }
+      ]
+    },
+    {
       "key": "e6cf937b-53bf-4264-a167-bf865f7dd31d",
-      "parentKey": "8a11cd72-6b87-4f2b-96e7-376bd994b42f",
+      "parentKey": "8602c691-6e75-4df3-a81d-a6479cefc76b",
       "subKeys": [
         "75bf5c1c-67ca-40bf-948d-e7b7c83d5326"
       ],
@@ -139,6 +274,21 @@
         {
           "type": "CONTENT",
           "data": "聚类（clustering）"
+        }
+      ]
+    },
+    {
+      "key": "62c20231-a04d-489f-af20-545845fe8c86",
+      "parentKey": "3944b20a-c31c-4ed2-9dff-ec0a14dad42f",
+      "subKeys": [
+        "8749a095-c52f-424f-a851-36e0f49bed79"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "compile"
         }
       ]
     },
@@ -190,6 +340,19 @@
       ]
     },
     {
+      "key": "4283d27c-cdb1-474f-bdde-c792f26ef0ed",
+      "parentKey": "c6336f15-7a6f-444e-bd9c-a4b0bc10373f",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "伪造网络"
+        }
+      ]
+    },
+    {
       "key": "f78b05c7-fb47-4a9f-a46d-44b01b7759a7",
       "parentKey": "8dc03d84-5e8b-4fff-9b32-f7846cc4792a",
       "subKeys": [
@@ -214,6 +377,47 @@
         {
           "type": "CONTENT",
           "data": "使用一两个隐藏层的小型网络防止过拟合"
+        }
+      ]
+    },
+    {
+      "key": "5ff8ff8c-8038-40ab-9587-a484a0196eba",
+      "parentKey": "9ebe64ff-a5fb-4920-aab0-d183dafa7c99",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "mse或binary_crossentropy"
+        }
+      ]
+    },
+    {
+      "key": "33d402dc-3240-4d5d-bf92-9890edec94ab",
+      "parentKey": "63538c7a-ac0c-45e4-8629-8526f0819717",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "数据集需要具有：\n1.取值较小0~1\n2.同质性（取值范围接近）\n3.常见做法是使所有特征平均值为0，标准差为1（不是必须）"
+        }
+      ]
+    },
+    {
+      "key": "afa5534e-4949-4d29-8249-799fc9071f5e",
+      "parentKey": "54047af1-14b4-4b24-b08e-4de0127272c2",
+      "subKeys": [
+        "25ca50cd-7c33-4bf1-822a-ad5057d06d19"
+      ],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "CNN"
         }
       ]
     },
@@ -251,7 +455,7 @@
         "3a58e7e7-368e-445e-b6ad-616454bd51e4",
         "0588f278-dfb0-4e5d-a7f4-bbe37bd76dbb"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -276,11 +480,25 @@
       ]
     },
     {
+      "key": "208ec930-259c-4de3-aa71-2ab993db2d36",
+      "parentKey": "c28cdea3-9446-42e3-943b-0e0013e4617d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "重复的 K 折验证"
+        }
+      ]
+    },
+    {
       "key": "71618b66-5511-466b-88c3-e7db63e6c033",
       "parentKey": "8dc03d84-5e8b-4fff-9b32-f7846cc4792a",
       "subKeys": [
         "a55e1f78-f972-4d71-a67f-a2c5a30c3cfd",
-        "c2c108ab-1bf5-47d0-8c73-2ad5e7f2f058"
+        "c2c108ab-1bf5-47d0-8c73-2ad5e7f2f058",
+        "3944b20a-c31c-4ed2-9dff-ec0a14dad42f"
       ],
       "collapse": false,
       "style": null,
@@ -307,6 +525,19 @@
       ]
     },
     {
+      "key": "7f2114c7-6f98-4a2d-a5d4-a7fddb988d50",
+      "parentKey": "a0e99181-a620-4ebe-b974-7de9ecfad36f",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "使用激活函数sigmoid"
+        }
+      ]
+    },
+    {
       "key": "091ce38d-301a-43bb-b490-e6991ec9dd6f",
       "parentKey": "6f1b50e5-8c7d-4e19-8dc5-b1b68dd494c2",
       "subKeys": [
@@ -322,17 +553,51 @@
       ]
     },
     {
-      "key": "c20c5f9c-35ac-413a-8a35-0d73d8f27822",
-      "parentKey": "8a11cd72-6b87-4f2b-96e7-376bd994b42f",
+      "key": "b443d9c3-ed4c-40ea-96d1-de709cedba3e",
+      "parentKey": "a03be2f9-d416-4a08-98b9-c395ece2175e",
       "subKeys": [
-        "8dc2f0a9-ae49-4ab7-be19-1bfaa1c375e8"
+        "4a572c90-68af-480b-9b11-f3d771609259",
+        "3f3de29f-3574-49ba-a6e1-bfe3404a1663",
+        "3138be31-22a3-43a5-b629-f191461bb3ac",
+        "f9b1f4b9-02d2-4897-baa8-c7b904d89b37"
       ],
       "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
+          "data": "2.选择衡量指标"
+        }
+      ]
+    },
+    {
+      "key": "c20c5f9c-35ac-413a-8a35-0d73d8f27822",
+      "parentKey": "8602c691-6e75-4df3-a81d-a6479cefc76b",
+      "subKeys": [
+        "8dc2f0a9-ae49-4ab7-be19-1bfaa1c375e8"
+      ],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
           "data": "dataset"
+        }
+      ]
+    },
+    {
+      "key": "c6336f15-7a6f-444e-bd9c-a4b0bc10373f",
+      "parentKey": "e6a7ae2c-f9e0-46d6-a6f4-894f2fb337bd",
+      "subKeys": [
+        "4283d27c-cdb1-474f-bdde-c792f26ef0ed",
+        "f72ec105-119c-4fd3-8b92-83e9d5928a7d"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "GAN"
         }
       ]
     },
@@ -385,6 +650,19 @@
       ]
     },
     {
+      "key": "7577b6bb-4700-445d-af98-4470b21c67a6",
+      "parentKey": "35f4e167-ec29-4f49-a5fa-d998b89572f9",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "L1 + L2\nkernel_regularizer=regularizers.l1_l2(l1=0.001, l2=0.001)"
+        }
+      ]
+    },
+    {
       "key": "080415f2-e3e4-4091-bbaf-7136f050f78b",
       "parentKey": "63538c7a-ac0c-45e4-8629-8526f0819717",
       "subKeys": [],
@@ -398,11 +676,102 @@
       ]
     },
     {
+      "key": "3944b20a-c31c-4ed2-9dff-ec0a14dad42f",
+      "parentKey": "71618b66-5511-466b-88c3-e7db63e6c033",
+      "subKeys": [
+        "b86eb5e7-bf1f-4f1a-a836-c63613743058",
+        "62c20231-a04d-489f-af20-545845fe8c86"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "多分类，多标签问题"
+        }
+      ]
+    },
+    {
+      "key": "8749a095-c52f-424f-a851-36e0f49bed79",
+      "parentKey": "62c20231-a04d-489f-af20-545845fe8c86",
+      "subKeys": [
+        "10d18554-f669-4404-b9f2-ef4e9d53f943"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "loss function"
+        }
+      ]
+    },
+    {
+      "key": "6d4d14c4-a032-41bd-8c9f-41eb4a4df264",
+      "parentKey": "a03be2f9-d416-4a08-98b9-c395ece2175e",
+      "subKeys": [
+        "05c80b81-1de0-4e38-a881-ceceb7e34069",
+        "45504d42-0b24-43d1-8101-9a2902fd197f"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "1.收集数据"
+        }
+      ]
+    },
+    {
+      "key": "e6a7ae2c-f9e0-46d6-a6f4-894f2fb337bd",
+      "parentKey": "54047af1-14b4-4b24-b08e-4de0127272c2",
+      "subKeys": [
+        "36a173fe-d1ec-4820-989f-21821f43c233",
+        "c6336f15-7a6f-444e-bd9c-a4b0bc10373f"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "图像生成"
+        }
+      ]
+    },
+    {
+      "key": "45504d42-0b24-43d1-8101-9a2902fd197f",
+      "parentKey": "6d4d14c4-a032-41bd-8c9f-41eb4a4df264",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "注意要确认该系统是否可以预测\n数据集足够学习和验证"
+        }
+      ]
+    },
+    {
+      "key": "4a572c90-68af-480b-9b11-f3d771609259",
+      "parentKey": "b443d9c3-ed4c-40ea-96d1-de709cedba3e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "平衡分类问题：\n1.精度\n2.接收者操作特征曲线下面积（ROC AUC）"
+        }
+      ]
+    },
+    {
       "key": "63538c7a-ac0c-45e4-8629-8526f0819717",
       "parentKey": "16cc120f-c767-4960-a095-9e2e0eb26ae1",
       "subKeys": [
         "080415f2-e3e4-4091-bbaf-7136f050f78b",
-        "b13b6925-c6cf-415f-938b-f7f5fc4f6274"
+        "b13b6925-c6cf-415f-938b-f7f5fc4f6274",
+        "33d402dc-3240-4d5d-bf92-9890edec94ab",
+        "ea423744-e873-41c2-9fa5-5fcbb036e6c2"
       ],
       "collapse": false,
       "style": null,
@@ -410,6 +779,21 @@
         {
           "type": "CONTENT",
           "data": "特征"
+        }
+      ]
+    },
+    {
+      "key": "b86eb5e7-bf1f-4f1a-a836-c63613743058",
+      "parentKey": "3944b20a-c31c-4ed2-9dff-ec0a14dad42f",
+      "subKeys": [
+        "a59215bb-ae3d-4da5-800e-03b127387282"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "layers"
         }
       ]
     },
@@ -516,6 +900,19 @@
       ]
     },
     {
+      "key": "1a7f79ba-44b3-41b6-a787-6d7e4ed50dd8",
+      "parentKey": "a59215bb-ae3d-4da5-800e-03b127387282",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "激活函数使用sigmoid"
+        }
+      ]
+    },
+    {
       "key": "7fc3d09d-b59c-4d76-9029-a3ef1dfc1ce7",
       "parentKey": "88e22d77-fc9d-402f-a61b-87fff7e6017d",
       "subKeys": [
@@ -548,6 +945,60 @@
       ]
     },
     {
+      "key": "dd12c306-996d-4f32-afec-4c74540739be",
+      "parentKey": "fd4c6c1e-bf6f-4e43-b1e5-1ec09d6cce73",
+      "subKeys": [
+        "a0e99181-a620-4ebe-b974-7de9ecfad36f"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "layers"
+        }
+      ]
+    },
+    {
+      "key": "05c80b81-1de0-4e38-a881-ceceb7e34069",
+      "parentKey": "6d4d14c4-a032-41bd-8c9f-41eb4a4df264",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "定义问题（二分类，回归？）\n定义问题集（预测什么，输入什么）"
+        }
+      ]
+    },
+    {
+      "key": "f9b1f4b9-02d2-4897-baa8-c7b904d89b37",
+      "parentKey": "b443d9c3-ed4c-40ea-96d1-de709cedba3e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "自定义指标"
+        }
+      ]
+    },
+    {
+      "key": "3138be31-22a3-43a5-b629-f191461bb3ac",
+      "parentKey": "b443d9c3-ed4c-40ea-96d1-de709cedba3e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "排序问题，多标签分类：\n平均准确率均值"
+        }
+      ]
+    },
+    {
       "key": "34bd2aaa-5ebf-4769-ab6c-ae97baf1c114",
       "parentKey": "494fcdc0-e048-45aa-b4fa-1e578a10494b",
       "subKeys": [
@@ -567,16 +1018,28 @@
       "key": "8a11cd72-6b87-4f2b-96e7-376bd994b42f",
       "parentKey": "f78b05c7-fb47-4a9f-a46d-44b01b7759a7",
       "subKeys": [
-        "e6cf937b-53bf-4264-a167-bf865f7dd31d",
-        "6f1b50e5-8c7d-4e19-8dc5-b1b68dd494c2",
-        "c20c5f9c-35ac-413a-8a35-0d73d8f27822"
+        "8602c691-6e75-4df3-a81d-a6479cefc76b",
+        "fd4c6c1e-bf6f-4e43-b1e5-1ec09d6cce73"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
           "data": "标量回归问题"
+        }
+      ]
+    },
+    {
+      "key": "b3333eeb-73eb-49ee-8bc4-ecd966ae754a",
+      "parentKey": "25ca50cd-7c33-4bf1-822a-ad5057d06d19",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "ハイパーパラメータ最適化"
         }
       ]
     },
@@ -603,6 +1066,40 @@
         {
           "type": "CONTENT",
           "data": "1.数据代表性\n2.时间箭头\n3.数据冗余"
+        }
+      ]
+    },
+    {
+      "key": "35f4e167-ec29-4f49-a5fa-d998b89572f9",
+      "parentKey": "dedb3875-0d75-4cf2-8562-7bd676fae478",
+      "subKeys": [
+        "3a04e286-edab-402e-8e58-5be08db949cd",
+        "492b564d-ea65-4deb-95cc-7f9343821214",
+        "7577b6bb-4700-445d-af98-4470b21c67a6"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "权重正则化（weight regularization）"
+        }
+      ]
+    },
+    {
+      "key": "8602c691-6e75-4df3-a81d-a6479cefc76b",
+      "parentKey": "8a11cd72-6b87-4f2b-96e7-376bd994b42f",
+      "subKeys": [
+        "e6cf937b-53bf-4264-a167-bf865f7dd31d",
+        "6f1b50e5-8c7d-4e19-8dc5-b1b68dd494c2",
+        "c20c5f9c-35ac-413a-8a35-0d73d8f27822"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "回归任意值"
         }
       ]
     },
@@ -648,6 +1145,65 @@
       ]
     },
     {
+      "key": "36a173fe-d1ec-4820-989f-21821f43c233",
+      "parentKey": "e6a7ae2c-f9e0-46d6-a6f4-894f2fb337bd",
+      "subKeys": [
+        "5a5a0b7c-9943-4104-b80d-2c066940ea56"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "变分自编码器"
+        }
+      ]
+    },
+    {
+      "key": "a03be2f9-d416-4a08-98b9-c395ece2175e",
+      "parentKey": "54047af1-14b4-4b24-b08e-4de0127272c2",
+      "subKeys": [
+        "6d4d14c4-a032-41bd-8c9f-41eb4a4df264",
+        "b443d9c3-ed4c-40ea-96d1-de709cedba3e",
+        "c28cdea3-9446-42e3-943b-0e0013e4617d",
+        "5ff6d4e9-4915-4288-8d88-e14c86208e3e"
+      ],
+      "collapse": true,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "训练模型的基本流程"
+        }
+      ]
+    },
+    {
+      "key": "ef787449-c643-41dd-bec2-58747d492ca7",
+      "parentKey": "dedb3875-0d75-4cf2-8562-7bd676fae478",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "dropout正则化"
+        }
+      ]
+    },
+    {
+      "key": "5142c829-1288-48ba-babe-939dba7c463a",
+      "parentKey": "70fa4064-99b4-4355-a31a-5483cbcb66e2",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "减少网络容量"
+        }
+      ]
+    },
+    {
       "key": "217603b5-94e9-45d0-a658-03eddb786ff1",
       "parentKey": "c2c108ab-1bf5-47d0-8c73-2ad5e7f2f058",
       "subKeys": [
@@ -668,9 +1224,10 @@
       "subKeys": [
         "63538c7a-ac0c-45e4-8629-8526f0819717",
         "8dc03d84-5e8b-4fff-9b32-f7846cc4792a",
-        "27d6eb06-80a8-4215-8394-1d5bfa152688"
+        "27d6eb06-80a8-4215-8394-1d5bfa152688",
+        "70fa4064-99b4-4355-a31a-5483cbcb66e2"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -709,6 +1266,19 @@
       ]
     },
     {
+      "key": "d68aa0a0-7981-4aed-a49f-324525911a35",
+      "parentKey": "25ca50cd-7c33-4bf1-822a-ad5057d06d19",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "多模型集成（加权平均，多样化）"
+        }
+      ]
+    },
+    {
       "key": "1b1af488-6a8c-4a80-9d08-128ccd955fc5",
       "parentKey": "8dc2f0a9-ae49-4ab7-be19-1bfaa1c375e8",
       "subKeys": [],
@@ -738,7 +1308,7 @@
     },
     {
       "key": "6f1b50e5-8c7d-4e19-8dc5-b1b68dd494c2",
-      "parentKey": "8a11cd72-6b87-4f2b-96e7-376bd994b42f",
+      "parentKey": "8602c691-6e75-4df3-a81d-a6479cefc76b",
       "subKeys": [
         "0c4372e0-b183-4f10-a6c4-d1841a1cb8dc",
         "091ce38d-301a-43bb-b490-e6991ec9dd6f"
@@ -766,10 +1336,28 @@
       ]
     },
     {
+      "key": "b3dd8fcc-e031-4ee3-98c1-8342f0b2b0f6",
+      "parentKey": "70fa4064-99b4-4355-a31a-5483cbcb66e2",
+      "subKeys": [
+        "dedb3875-0d75-4cf2-8562-7bd676fae478"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "约束模可以存储的信息量"
+        }
+      ]
+    },
+    {
       "key": "54047af1-14b4-4b24-b08e-4de0127272c2",
       "parentKey": null,
       "subKeys": [
-        "15508186-324a-46bc-b45d-728bee88d266"
+        "15508186-324a-46bc-b45d-728bee88d266",
+        "a03be2f9-d416-4a08-98b9-c395ece2175e",
+        "afa5534e-4949-4d29-8249-799fc9071f5e",
+        "e6a7ae2c-f9e0-46d6-a6f4-894f2fb337bd"
       ],
       "collapse": false,
       "style": null,
@@ -800,12 +1388,28 @@
         "217603b5-94e9-45d0-a658-03eddb786ff1",
         "ea16deca-2716-4d8a-b72e-e36d44c3098b"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
           "data": "单标签双分类问题"
+        }
+      ]
+    },
+    {
+      "key": "dedb3875-0d75-4cf2-8562-7bd676fae478",
+      "parentKey": "b3dd8fcc-e031-4ee3-98c1-8342f0b2b0f6",
+      "subKeys": [
+        "35f4e167-ec29-4f49-a5fa-d998b89572f9",
+        "ef787449-c643-41dd-bec2-58747d492ca7"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "正则化"
         }
       ]
     },
@@ -880,6 +1484,36 @@
       ]
     },
     {
+      "key": "a0e99181-a620-4ebe-b974-7de9ecfad36f",
+      "parentKey": "dd12c306-996d-4f32-afec-4c74540739be",
+      "subKeys": [
+        "7f2114c7-6f98-4a2d-a5d4-a7fddb988d50"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "输出层"
+        }
+      ]
+    },
+    {
+      "key": "cce6cfc3-189c-49ec-8162-e536d37fa5a5",
+      "parentKey": "fd4c6c1e-bf6f-4e43-b1e5-1ec09d6cce73",
+      "subKeys": [
+        "9ebe64ff-a5fb-4920-aab0-d183dafa7c99"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "compile"
+        }
+      ]
+    },
+    {
       "key": "2bfc70b5-3292-44ae-9293-c66f40e0f88d",
       "parentKey": "17aa5bd6-52e8-47da-943a-7c6aeb16ab37",
       "subKeys": [],
@@ -893,6 +1527,32 @@
       ]
     },
     {
+      "key": "2b95f8e2-dbf4-4730-a6d3-3c6fe215e487",
+      "parentKey": "70fa4064-99b4-4355-a31a-5483cbcb66e2",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "获取更多的训练数据"
+        }
+      ]
+    },
+    {
+      "key": "aeeddbdc-7ff7-4db3-a113-e06c7af5d1e2",
+      "parentKey": "c28cdea3-9446-42e3-943b-0e0013e4617d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "留出验证集"
+        }
+      ]
+    },
+    {
       "key": "27d6eb06-80a8-4215-8394-1d5bfa152688",
       "parentKey": "16cc120f-c767-4960-a095-9e2e0eb26ae1",
       "subKeys": [
@@ -901,7 +1561,7 @@
         "37a344cb-46ab-4210-8b19-ade21d66ee1e",
         "1f66cabc-0a99-4140-a7fc-a52144e6229f"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -922,6 +1582,19 @@
         {
           "type": "CONTENT",
           "data": "K折验证（K-fold validation）"
+        }
+      ]
+    },
+    {
+      "key": "f72ec105-119c-4fd3-8b92-83e9d5928a7d",
+      "parentKey": "c6336f15-7a6f-444e-bd9c-a4b0bc10373f",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "专家网络"
         }
       ]
     },
@@ -957,6 +1630,32 @@
       ]
     },
     {
+      "key": "48685bc9-e9ce-4b1f-9c4a-5d50af13437c",
+      "parentKey": "5ff6d4e9-4915-4288-8d88-e14c86208e3e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "转化为张量"
+        }
+      ]
+    },
+    {
+      "key": "e22fef79-4743-4722-a03c-86c60cb55597",
+      "parentKey": "25ca50cd-7c33-4bf1-822a-ad5057d06d19",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "构建高性能的深度卷积神经网络时，你需要使用残差连接、批标准化和深度可分离卷积"
+        }
+      ]
+    },
+    {
       "key": "3611a241-72ee-437a-9345-cd4527c566ec",
       "parentKey": "34bd2aaa-5ebf-4769-ab6c-ae97baf1c114",
       "subKeys": [],
@@ -970,6 +1669,32 @@
       ]
     },
     {
+      "key": "ea423744-e873-41c2-9fa5-5fcbb036e6c2",
+      "parentKey": "63538c7a-ac0c-45e4-8629-8526f0819717",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "更小的验证损失（validation loss）意味着更好的模型"
+        }
+      ]
+    },
+    {
+      "key": "cac4ecf4-f421-47af-852a-0310816ac097",
+      "parentKey": "c28cdea3-9446-42e3-943b-0e0013e4617d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "K 折交叉验证"
+        }
+      ]
+    },
+    {
       "key": "f2607379-6302-41e8-9a99-d0cfe75a9858",
       "parentKey": "091ce38d-301a-43bb-b490-e6991ec9dd6f",
       "subKeys": [],
@@ -979,6 +1704,19 @@
         {
           "type": "CONTENT",
           "data": "使用mae（平均绝对误差）预测值与目标值之差的绝对值"
+        }
+      ]
+    },
+    {
+      "key": "3a04e286-edab-402e-8e58-5be08db949cd",
+      "parentKey": "35f4e167-ec29-4f49-a5fa-d998b89572f9",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "L1 正则化：\n添加的成本（cost）与权重系数的绝对值（权重的L1范数）成正比\nkernel_regularizer=regularizers.l1(0.001)"
         }
       ]
     },
@@ -998,6 +1736,19 @@
       ]
     },
     {
+      "key": "78ff0024-e45d-4cc8-af30-8914f38fb857",
+      "parentKey": "5ff6d4e9-4915-4288-8d88-e14c86208e3e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "数据标准化"
+        }
+      ]
+    },
+    {
       "key": "b0780081-60b6-4596-bcb0-ff5c4c3116d9",
       "parentKey": "75bf5c1c-67ca-40bf-948d-e7b7c83d5326",
       "subKeys": [],
@@ -1007,6 +1758,64 @@
         {
           "type": "CONTENT",
           "data": "应该为1个单元的Dense层吧，并且为纯线性回归不加激活函数限制输出范围"
+        }
+      ]
+    },
+    {
+      "key": "9ebe64ff-a5fb-4920-aab0-d183dafa7c99",
+      "parentKey": "cce6cfc3-189c-49ec-8162-e536d37fa5a5",
+      "subKeys": [
+        "5ff8ff8c-8038-40ab-9587-a484a0196eba"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "loss function"
+        }
+      ]
+    },
+    {
+      "key": "70fa4064-99b4-4355-a31a-5483cbcb66e2",
+      "parentKey": "16cc120f-c767-4960-a095-9e2e0eb26ae1",
+      "subKeys": [
+        "2b95f8e2-dbf4-4730-a6d3-3c6fe215e487",
+        "b3dd8fcc-e031-4ee3-98c1-8342f0b2b0f6",
+        "5142c829-1288-48ba-babe-939dba7c463a"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "过拟合的解决办法"
+        }
+      ]
+    },
+    {
+      "key": "732d780e-f9c4-49c6-923a-d4fde523546f",
+      "parentKey": "5ff6d4e9-4915-4288-8d88-e14c86208e3e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "特征工程"
+        }
+      ]
+    },
+    {
+      "key": "3f3de29f-3574-49ba-a6e1-bfe3404a1663",
+      "parentKey": "b443d9c3-ed4c-40ea-96d1-de709cedba3e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "不平衡问题：\n1.准确率\n2.召回率"
         }
       ]
     },
