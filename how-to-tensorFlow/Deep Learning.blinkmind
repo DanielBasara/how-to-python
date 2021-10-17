@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "54047af1-14b4-4b24-b08e-4de0127272c2",
   "editorRootTopicKey": "54047af1-14b4-4b24-b08e-4de0127272c2",
-  "focusKey": "f72ec105-119c-4fd3-8b92-83e9d5928a7d",
+  "focusKey": "0565d5f1-b8ec-45dd-b700-e57cea5def0e",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {}
@@ -727,7 +727,8 @@
       "parentKey": "54047af1-14b4-4b24-b08e-4de0127272c2",
       "subKeys": [
         "36a173fe-d1ec-4820-989f-21821f43c233",
-        "c6336f15-7a6f-444e-bd9c-a4b0bc10373f"
+        "c6336f15-7a6f-444e-bd9c-a4b0bc10373f",
+        "0565d5f1-b8ec-45dd-b700-e57cea5def0e"
       ],
       "collapse": false,
       "style": null,
@@ -1150,12 +1151,25 @@
       "subKeys": [
         "5a5a0b7c-9943-4104-b80d-2c066940ea56"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
           "type": "CONTENT",
           "data": "变分自编码器"
+        }
+      ]
+    },
+    {
+      "key": "0565d5f1-b8ec-45dd-b700-e57cea5def0e",
+      "parentKey": "e6a7ae2c-f9e0-46d6-a6f4-894f2fb337bd",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "卷积自编码器"
         }
       ]
     },
