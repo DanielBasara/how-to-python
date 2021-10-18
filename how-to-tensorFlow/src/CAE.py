@@ -41,8 +41,8 @@ callbacks_list = [
         embeddings_freq=1
     )
 ]
-CAE.fit(x_train, x_train, batch_size=64, epochs=5, validation_split=0.1, validation_freq=10,
-        callbacks=callbacks_list)
+CAE.fit(x_train, x_train, batch_size=64, epochs=5, validation_split=0.1,
+        validation_freq=10, callbacks=callbacks_list)
 
 
 # %%
@@ -82,7 +82,6 @@ x_train_noisy = np.clip(x_train_noisy, 0., 1.)
 
 CAE.fit(x_train_noisy, x_train, batch_size=64, epochs=5, validation_split=0.1, validation_freq=10,
         callbacks=callbacks_list)
-
 
 
 # %%
