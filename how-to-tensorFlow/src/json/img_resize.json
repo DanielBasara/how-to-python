@@ -1,0 +1,12 @@
+{
+    "start_index": "2018-11-1 00:00:00",
+    "end_index": "2018-11-30 23:59:59",
+    "crop_lat_n": 400,
+    "crop_lat_s": 900,
+    "crop_lon_w": 400,
+    "crop_lon_e": 900,
+    "resize_height": 256,
+    "resize_width": 256,
+    "illum_low_lim": 85,
+    "illum_high_lim": 100
+}
