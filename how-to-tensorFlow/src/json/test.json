@@ -1,1 +1,10 @@
-{"family": {"number": 3, "member": {"father": "jack", "mother": "lili", "son": "Daniel"}}}
+{
+    "family": {
+        "number": 3,
+        "member": {
+            "father": "jack",
+            "mother": "lili",
+            "son": "Daniel"
+        }
+    }
+}

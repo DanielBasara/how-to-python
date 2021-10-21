@@ -7,7 +7,7 @@
 
 # %%
 import matplotlib.pyplot as plt
-from pandas._libs.tslibs import NullFrequencyError
+from tensorflow.python.ops.gen_data_flow_ops import tensor_array
 from tqdm import tqdm
 import time
 import os
@@ -20,6 +20,7 @@ from PIL import Image
 from datetime import datetime
 import cv2
 import seaborn as sns
+import tensorflow as tf
 # %%
 file_path = 'json/test.json'
 
@@ -130,6 +131,23 @@ plt.show()
 hsv_img = cv2.cvtColor(cropped_img, cv2.COLOR_RGB2HSV)
 image_v = hsv_img[:, :, 2]
 illum = image_v.mean()
+plt.imshow(hsv_img, cmap="hsv")
+plt.show()
+
+cv2.imshow("hsv", hsv_img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+# %% to gray
+gray_img = cv2.cvtColor(cropped_img, cv2.COLOR_BGR2GRAY)
+x = np.array(gray_img).reshape(256, 256, 1)
+plt.imshow(x, cmap="gray")
+plt.show()
+
+# %% to tensor
+a = tf.convert_to_tensor(x)
+b = a
+c = tf.stack([a, b], axis=0)
 
 # %% すべての画像をHSV変換で強化する
 (img_num, _) = file_list_DF.shape
@@ -164,3 +182,47 @@ with plt.style.context('seaborn-poster') as st:
     ax.legend(bbox_to_anchor=(1.05, 1), loc="upper left",
               borderaxespad=0., frameon=True, edgecolor="blue")
 plt.show()
+
+
+# %% loop データセット１０００枚作る
+file_list = pd.read_csv("database/file_list.csv", index_col=0)  # load csv
+
+with open("json/img_resize.json", "r") as f:  # load resize data_json
+    img_resize = json.load(f)
+y0 = img_resize["crop_lat_n"]
+y1 = img_resize["crop_lat_s"]
+x0 = img_resize["crop_lon_w"]
+x1 = img_resize["crop_lon_e"]
+height = img_resize["resize_height"]
+width = img_resize["resize_width"]
+
+catch_num = 0
+data_list_path = []
+array_list = []
+
+
+def resize_tensor(array, height, width):
+    array = tf.reshape(array, [height, width, 1])
+    return array
+
+
+n = len(file_list)
+for catch_num in range(len(file_list)):
+    check_img_date = file_list.iloc[catch_num][0]
+    check_img_path = file_list.iloc[catch_num][1]
+    date = datetime.fromisoformat(check_img_date).strftime("%Y%m%d%H%M%S")
+    save_path = Path("data/img", date+".jpg")
+    data_list_path.append(save_path)
+    check_img = Image.open(check_img_path)
+    img = np.asarray(check_img)
+    cropped_img = img[y0: y1, x0: x1]
+    cropped_img = cv2.resize(cropped_img, (height, width))
+    gray_img = cv2.cvtColor(cropped_img, cv2.COLOR_BGR2GRAY)
+    tensor = resize_tensor(gray_img, height, width)
+    array_list.append(tensor)
+    cv2.imwrite(str(save_path), gray_img)
+data_list = pd.DataFrame(file_list["datatime"])
+data_list["data_path"] = data_list_path
+data_list.to_csv("database/data_list.csv", encoding="utf_8_sig")
+tensor_list = tf.stack(array_list, axis=0)
+np.save("100.npy", tensor_list)
