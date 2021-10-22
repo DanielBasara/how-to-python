@@ -6,6 +6,9 @@
 # json文件的编辑，保存和读取
 
 # %%
+from multiprocessing import Process, Queue
+from multiprocessing.queues import Queue
+import queue
 import matplotlib.pyplot as plt
 from tensorflow.python.ops.gen_data_flow_ops import tensor_array
 from tqdm import tqdm
