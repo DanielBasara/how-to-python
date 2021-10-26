@@ -1108,3 +1108,17 @@ how-to-tensorFlow/src/data/img/20181121202658.jpg
 how-to-tensorFlow/src/data/img/20181121202708.jpg
 how-to-tensorFlow/src/data/img/20181121202718.jpg
 how-to-tensorFlow/src/database/data_list.csv
+how-to-tensorFlow/src/hiroshima_model_create/src/.gitignore
+how-to-tensorFlow/src/hiroshima_model_create/src/01_load_img_0714.py
+how-to-tensorFlow/src/hiroshima_model_create/src/02_learn_img_0714.py
+how-to-tensorFlow/src/hiroshima_model_create/src/03_main_scum_detect_0916.py
+how-to-tensorFlow/src/hiroshima_model_create/src/AI_Model_0714.py
+how-to-tensorFlow/src/hiroshima_model_create/src/AnomalyDetector.py
+how-to-tensorFlow/src/hiroshima_model_create/src/config.json
+how-to-tensorFlow/src/hiroshima_model_create/src/create_filelist.py
+how-to-tensorFlow/src/hiroshima_model_create/src/ddf_management_0807.py
+how-to-tensorFlow/src/hiroshima_model_create/src/IO_0520.py
+how-to-tensorFlow/src/hiroshima_model_create/src/README.md
+how-to-tensorFlow/src/hiroshima_model_create/src/requirements.txt
+how-to-tensorFlow/src/database/file_list.csv
+how-to-tensorFlow/src/database/illum_mean.csv
