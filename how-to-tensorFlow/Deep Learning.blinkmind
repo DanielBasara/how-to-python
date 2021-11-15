@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "54047af1-14b4-4b24-b08e-4de0127272c2",
   "editorRootTopicKey": "54047af1-14b4-4b24-b08e-4de0127272c2",
-  "focusKey": "0565d5f1-b8ec-45dd-b700-e57cea5def0e",
+  "focusKey": "8dc03d84-5e8b-4fff-9b32-f7846cc4792a",
   "extData": {
     "TOPIC_REFERENCE": {
       "reference": {}
@@ -774,7 +774,7 @@
         "33d402dc-3240-4d5d-bf92-9890edec94ab",
         "ea423744-e873-41c2-9fa5-5fcbb036e6c2"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -936,7 +936,7 @@
         "f78b05c7-fb47-4a9f-a46d-44b01b7759a7",
         "17aa5bd6-52e8-47da-943a-7c6aeb16ab37"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -1241,7 +1241,7 @@
         "27d6eb06-80a8-4215-8394-1d5bfa152688",
         "70fa4064-99b4-4355-a31a-5483cbcb66e2"
       ],
-      "collapse": true,
+      "collapse": false,
       "style": null,
       "blocks": [
         {
@@ -1355,7 +1355,7 @@
       "subKeys": [
         "dedb3875-0d75-4cf2-8562-7bd676fae478"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
@@ -1798,7 +1798,7 @@
         "b3dd8fcc-e031-4ee3-98c1-8342f0b2b0f6",
         "5142c829-1288-48ba-babe-939dba7c463a"
       ],
-      "collapse": false,
+      "collapse": true,
       "style": null,
       "blocks": [
         {
